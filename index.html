@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="jscss.css">
+    <title>Expense Traker</title>
 </head>
 <body>
-    <p>jana gana mana</p>
+<h1>Modify Expenses</h1>
+<p id="totalexpense">Expenses Total: R 0</p>
+
+<div class="form">
+<div class="expensetype">
+  <p id="etype">Expense type:</p>
+  <input type="text" id="expName" placeholder="Expense Name">
+  </div>
+  <div class="expensenamount">
+  <p id="eamount">Expense amount:</p>
+  <input type="number" id="expAmount" placeholder="Expense Amount (R)">
+  </div>
+  <div class="expensebutton">
+  <button id="addBtn">Add Expense</button>
+  <button id="clearBtn">Clear Expenses</button>
+  </div>
+</div>
+
+<p id="totalincome">Income Total: R 0</p>
+
+<div class="formincome">
+<div class="incometype">
+  <p id="itype">Income type:</p>
+  <input type="text" id="incName" placeholder="Income Name">
+  </div>
+  <div class="incomeamount">
+  <p id="eamount">Income amount:</p>
+  <input type="number" id="incAmount" placeholder="Income Amount (R)">
+  </div>
+  <div class="incomebutton">
+  <button id="addBtninc">Add Income</button>
+  <button id="clearBtninc">Clear Income</button>
+  </div>
+</div>
+<div id="expenseList">
+      <table border="1" id="table">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Amount</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script src="first.js"></script>
 </body>
 </html>

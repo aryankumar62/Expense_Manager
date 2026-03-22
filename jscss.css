@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f0f0f0, #d9e6f2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;   /* heading stays at top */
+  align-items: center;      /* center horizontally */
+}
+
+h1 {
+  margin-top: 20px;
+  color: #333;
+}
+
+#totalexpense {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#totalincome {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#addBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#clearBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+#expenseList {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+
+#expenseList li {
+  background: #fafafa;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#expenseList li button {
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.form{
+    width: 60%;
+    padding: 30px;
+    
+}
+input{
+    width: 100%;
+    max-width: 400px;
+}
+.expensetype{
+    display: flex;
+    justify-content: space-between;
+}
+.expensenamount{
+    display: flex;
+    justify-content: space-between;
+}
+.expensebutton{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+/* incoem form style */
+
+.formincome{
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  width: 60%;
+  padding: 30px;
+    
+}
+
+.formincome input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formincome button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#addBtninc {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#clearBtninc {
+  background-color: #f44336;
+  color: white;
+}
+
+.incometype{
+    display: flex;
+    justify-content: space-between;
+}
+.incomeamount{
+    display: flex;
+    justify-content: space-between;
+}
+.incomebutton{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+#expenseList{
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+
+}
+#table{
+   width: 100%;
+   background-color: darkblue;
+   color: white;
+}
