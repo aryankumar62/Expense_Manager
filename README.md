@@ -27,7 +27,7 @@ JavaScript
 
 🌐 Live Demo
 
-👉 Add your deployed link here (GitHub Pages)
+👉  https://aryankumar62.github.io/Expense_Manager/
 
 📂 How to Use
 
